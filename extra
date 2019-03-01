@@ -54,3 +54,10 @@ git add .
 git commit -m "first commit"
 git remote add origin https://github.com/Aakashdeveloper/Pooja_react.git
 git push -u origin master
+
+
+// Next Time
+
+git add .
+git commit -m "first commit"
+git push
