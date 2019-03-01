@@ -1,0 +1,56 @@
+visual studio code: https://code.visualstudio.com/
+Nodejs: https://nodejs.org/en/
+Github account: https://github.com/
+GitBash: https://git-scm.com/downloads
+https://github.com/Aakashdeveloper/Pooja_react
+
+npm init
+
+npm install --save react-dom
+npm install -g react
+
+npm install create-react-app -g
+
+create-react-app firstapp
+cd firstapp
+npm start
+
+
+functional component
+presentational
+Light in weight
+
+class base component
+heavy as compare to functional
+
+function add(a,b){
+    return a+b
+}
+
+const add = (a,b) => {
+    return a+b
+}
+
+var a = 10
+var b = "my age is "+a
+
+var c = `my age is ${a}`
+
+let
+const
+
+
+state => local variable
+props=> help to tranfer state
+
+
+
+A                ===Props=>             B
+name="pooja"                            name=""
+
+// First Time
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/Pooja_react.git
+git push -u origin master
