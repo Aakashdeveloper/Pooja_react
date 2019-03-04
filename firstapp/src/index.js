@@ -1,15 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Home from './components/home';
+import Header from './components/header';
 
 const App = () => {
     return(
         <div>
-            
-            <Home/>
-            <h1> ReactApp</h1>
-            <h2> New App </h2>
+            <Header/>
         </div>
     )
 }
