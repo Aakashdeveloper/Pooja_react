@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import './header.css';
 
-import NewsList from './newList';
 
 class Header extends Component {
     constructor(props){
@@ -34,7 +33,6 @@ class Header extends Component {
                     
                 </header>
                 <hr/>
-                <NewsList myList={this.state.userInput}/>
             </div>
         )
     }  
