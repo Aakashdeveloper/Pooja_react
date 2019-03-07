@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
 const NewsList = (props) => {
-    console.log("props from new"+ props);
     const items = props.news.map((output) => {
         return(
             <div>
