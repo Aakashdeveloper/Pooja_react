@@ -3,7 +3,10 @@ import React, {Component} from 'react';
 class Profile extends Component {
     render(){
         return(
-            <h1>Profile Page</h1>
+            <div class="panel panel-success">
+                <div className="panel-heading">Profile Page</div>
+                <div class="panel-body">Profile Page COntent</div>
+            </div>
         )
     }
 }

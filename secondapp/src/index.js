@@ -10,9 +10,26 @@ ReactDOM.render(
     <BrowserRouter>
         <div>
             <header>
-                <Link to="/">Home</Link>
-                <Link to="/posts">Post</Link>
-                <Link to="/profile">Profile</Link>
+            <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button>
+                        <a class="navbar-brand" >WebSiteName</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/posts">Post</Link></li>
+                            <li><Link to="/profile">Profile</Link></li>
+                        </ul>
+                      
+                        </div>
+                    </div>
+            </nav>
             </header>
             <Route exact path="/" component={Home}></Route>
             <Route path="/posts" component={Posts}></Route>
