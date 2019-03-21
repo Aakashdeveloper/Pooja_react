@@ -73,3 +73,8 @@ grid basic
 panel
 navbar
 collapase navbar
+
+////
+npm install -g json-server
+
+json-server --watch db.json  --port 7800
