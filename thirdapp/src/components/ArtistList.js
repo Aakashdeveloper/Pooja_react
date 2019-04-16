@@ -12,7 +12,7 @@ const ArtistList = (props) => {
                     no-repeat`
                 }
                 return(
-                    <Link key={data.id} to={`/artist/${data.id}`}
+                    <Link key={data.id} to={`/artists/${data.id}`}
                         className="artist_item"
                         style={styles}>
                         <div>{data.name}</div>
