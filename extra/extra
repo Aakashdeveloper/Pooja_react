@@ -61,3 +61,20 @@ git push -u origin master
 git add .
 git commit -m "first commit"
 git push
+
+directory
+// Windows:= dir
+// Mac:= ls
+
+npm install react-router-dom
+
+
+grid basic
+panel
+navbar
+collapase navbar
+
+////
+npm install -g json-server
+
+json-server --watch db.json  --port 7800

@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import './header.css';
 
-import NewsList from './newList';
 
 class Header extends Component {
     constructor(props){
@@ -16,8 +15,9 @@ class Header extends Component {
     inputChange(event){
         console.log(event.target.value);
         this.setState(
-            {'userInput':event.target.value?event.target.value:'User Text here'}
+            {'userInput':event.target.value ? event.target.value:'User Text here'}
         )
+        this.props.newsSearch(event.target.value);
     }
     render(){
         return(
@@ -34,7 +34,6 @@ class Header extends Component {
                     
                 </header>
                 <hr/>
-                <NewsList myList={this.state.userInput}/>
             </div>
         )
     }  
