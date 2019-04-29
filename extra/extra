@@ -78,3 +78,5 @@ collapase navbar
 npm install -g json-server
 
 json-server --watch db.json  --port 7800
+
+npm install redux react-redux redux-promise
