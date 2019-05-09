@@ -5,7 +5,7 @@ const showLatest = ({latestNews}) => {
     if(latestNews){
         return latestNews.map((data) => {
             return(
-                <Link to="/" className="item">
+                <Link to={`/news/${data.id}`} key={data.id} className="item">
                     <div className="image_cover"
                     style={{background:`url(/images/articles/${data.img})`}}>
                         <div className="description">
